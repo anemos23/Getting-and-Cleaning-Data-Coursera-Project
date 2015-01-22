@@ -3,10 +3,9 @@ Getting and Cleaning Data Coursera Project
 
 ##This is the R script that creates the tidy data set from the file
 ##It would require the data to be on your working directory in a file with the name UCI HAR Dataset
-
+##read the features list and create a string vector with all the variables names
 
 library(dplyr)
-##read the features list and create a string vector with all the variables names
 features <- read.table("~/UCI HAR Dataset/features.txt", stringsAsFactors = FALSE)
 features <- features[,2]
 features <- make.names(features, unique=TRUE)
