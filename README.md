@@ -7,4 +7,5 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 
 The codebook.md describes the variables, the data, and any transformations or work that you performed to clean up the data 
+
 The run_analysis.R file contains the script that can reproduce the run_analysis.txt file that has been submitted
